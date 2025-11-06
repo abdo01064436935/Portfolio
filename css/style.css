@@ -13,6 +13,7 @@ h6,
 ul,
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
+ 
 }
 
 
@@ -39,6 +40,7 @@ ul,
 .main-header .pointer {
   width: 210px;
   top: 55%;
+  
 }
 
 .main-header .pointer p {
@@ -144,251 +146,72 @@ nav .nav-link {
 
 
 @keyframes words {
-  1.5% {
-
-    content: "L";
-  }
-
-  3% {
-    content: "La";
-  }
-
-  4.5% {
-    content: "Lar";
-  }
-
-  6% {
-
-    content: "Larr";
-  }
-
-  7.5% {
-    content: "Larry";
-  }
-
-  9% {
-    content: "Larry ";
-  }
-
-  10.5% {
-
-    content: "Larry D";
-  }
-
-  12% {
-    content: "Larry Da";
-  }
-
-  13.5% {
-    content: "Larry Dan";
-  }
-
-  15% {
-
-    content: "Larry Dani";
-  }
-
-  16.5% {
-    content: "Larry Danie";
-  }
-
-  18% {
-    content: "Larry Daniel";
-  }
-
-  19.5% {
-
-    content: "Larry Danie";
-  }
-
-  21% {
-    content: "Larry Dani";
-  }
-
-  22.5% {
-    content: "Larry Dan";
-  }
-
-  24% {
-
-    content: "Larry Da";
-  }
-
-  25.5% {
-    content: "Larry D";
-  }
-
-  27% {
-    content: "Larry ";
-  }
-
-  28.5% {
-    content: "Larry";
-  }
-
-  30% {
-    content: "Larr";
-  }
-
-  31.5% {
-    content: "Lar";
-  }
-
-  33% {
-    content: "La";
-  }
-
-  34.5% {
-    content: "L";
-  }
-
-  36% {
+  0%, 3% {
     content: "";
   }
 
-  37.5% {
-    content: "D";
-  }
+  /* كتابة Abdelrhman */
+  2% { content: "A"; }
+  4% { content: "Ab"; }
+  6% { content: "Abd"; }
+  8% { content: "Abde"; }
+  10% { content: "Abdel"; }
+  12% { content: "Abdelr"; }
+  14% { content: "Abdelrh"; }
+  16% { content: "Abdelrhm"; }
+  18% { content: "Abdelrhman"; }
 
-  39% {
-    content: "De";
-  }
+  /* مسح Abdelrhman */
+  20% { content: "Abdelrhm"; }
+  22% { content: "Abdelrh"; }
+  24% { content: "Abdelr"; }
+  26% { content: "Abdel"; }
+  28% { content: "Abde"; }
+  30% { content: "Abd"; }
+  32% { content: "Ab"; }
+  34% { content: "A"; }
+  36% { content: ""; }
 
-  40.5% {
-    content: "Dev";
-  }
-
-  42% {
-    content: "Deve";
-  }
-
-  43.5% {
-    content: "Devel";
-  }
-
-  45% {
-    content: "Develo";
-  }
-
-  46.5% {
-    content: "Develop";
-  }
-
-  48% {
-    content: "Develope";
-  }
-
-  49.5% {
-    content: "Developer";
-  }
-
-  51% {
-    content: "Develope";
-  }
-
-  52.5% {
-    content: "Develop";
-  }
-
-  54% {
-    content: "Develo";
-  }
-
-  55.5% {
-    content: "Devel";
-  }
-
-  57% {
-    content: "Deve";
-  }
-
-  58.5% {
-    content: "Dev";
-  }
-
-  60% {
-    content: "De";
-  }
-
-  61.5% {
-    content: "D";
-  }
-
-  63% {
-    content: "";
-  }
-
-  68% {
-    content: "D";
-  }
-
-  72% {
-    content: "De";
-  }
-
-  75% {
-    content: "Des";
-  }
-
-  78% {
-    content: "Desi";
-  }
-
-  81% {
-    content: "Desig";
-  }
-
-  84% {
-    content: "Design";
-  }
-
-  87% {
-    content: "Designe";
-  }
-
-  90% {
-    content: "Designer";
-  }
-
-  92% {
-    content: "Designe";
-  }
-
-  93% {
-    content: "Design";
-  }
-
-  94% {
-    content: "Desig";
-  }
-
-  95% {
-    content: "Desi";
-  }
-
-  96% {
-    content: "Des";
-  }
-
-  97% {
-    content: "De";
-  }
-
-  98% {
-    content: "D";
-  }
-
-  99% {
-    content: "D";
-  }
-
-  100% {
-    content: "";
-  }
-
-
-
+  /* كتابة Front-end Developer */
+  38% { content: "F"; }
+  40% { content: "Fr"; }
+  42% { content: "Fro"; }
+  44% { content: "Fron"; }
+  46% { content: "Front"; }
+  48% { content: "Front-"; }
+  50% { content: "Front-end "; }
+  53% { content: "Front-end D"; }
+  56% { content: "Front-end De"; }
+  58% { content: "Front-end Dev"; }
+  60% { content: "Front-end Deve"; }
+  62% { content: "Front-end Devel"; }
+  64% { content: "Front-end Develo"; }
+  65% { content: "Front-end Develop"; }
+  67% { content: "Front-end Develope"; }
+  69% { content: "Front-end Developer"; }
+  71% { content: "Front-end Develope"; }
+  72% { content: "Front-end Develo"; }
+  74% { content: "Front-end Devel"; }
+  76% { content: "Front-end Deve"; }
+  77% { content: "Front-end Dev"; }
+  79% { content: "Front-end De"; }
+  80% { content: "Front-end D"; }
+  82% { content: "Front-end "; }
+  84% { content: "Front-end"; }
+  86% { content: "Front-en"; }
+  88% { content: "Front-e"; }
+  90% { content: "Front-"; }
+  92% { content: "Front"; }
+  94% { content: "Fron"; }
+  96% { content: "Fro"; }
+  98% { content: "Fr"; }
+  99% { content: "F"; }
+  100% { content: ""; }
 }
+
+
+
+
 
 @keyframes typing {
 
@@ -480,10 +303,7 @@ nav .nav-link {
   width: 85%;
 }
 
-#about .col-md-6 .div1 {
-  height: 25px;
-  background-color: #F4F4F4;
-}
+
 
 #about .col-md-6 .div1 .div2 {
   width: 95%;
@@ -568,6 +388,7 @@ nav .nav-link {
   word-spacing: 2px;
   font-size: 16px;
   color: #748182;
+  padding: 10px;
 
 }
 
@@ -578,6 +399,8 @@ nav .nav-link {
 #services .col-md-4 .inner:hover i {
   color: #fff;
 }
+
+
 
 
 
@@ -616,6 +439,8 @@ nav .nav-link {
 
 #works .row .col-md-4 .inner {
   width: 100%;
+  
+  
 
 }
 
@@ -642,6 +467,7 @@ nav .nav-link {
   height: 30px;
   background-color: var(--main-color-black);
   border: 1px solid var(--main-color-black);
+  cursor: pointer;
 
 
 
@@ -657,6 +483,19 @@ nav .nav-link {
   opacity: 1;
   top: 1.5%;
 }
+#works img{
+    height: 350px;
+   object-fit: cover;
+   background-position: center;
+   background-size: cover;
+}
+#works .row .col-md-4 .inner .con1 {
+  width: 30px;
+  height: 30px;
+  background-color: var(--main-color-black);
+  border: 1px solid var(--main-color-black);
+  cursor: pointer;
+}
 
 #works .row .col-md-4 .inner .con1:hover {
   background-color: #fff;
@@ -664,6 +503,51 @@ nav .nav-link {
 
 #works .row .col-md-4 .inner .con1:hover i {
   color: var(--main-color-black);
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Close button */
+.modal .close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #333;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal .close:hover {
+  color: var(--main-color-black);
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 /* start of works section */
@@ -888,3 +772,231 @@ nav .nav-link {
 }
 
 /* end of contact section */
+
+
+
+/* universe io */
+
+/* From Uiverse.io by alexruix */ 
+.card {
+  width: 100%;
+  height: 630px;
+  position: relative;
+  background: #f5f5f5;
+  color: #252525;
+  border-radius: 4px;
+  line-height: 150%;
+  box-shadow: 0px 10px 20px rgba(80, 80, 80, 0.2);
+  transition: box-shadow .3s ease-in-out;
+  
+}
+#imgme{
+  background-position: center;
+  background-size: cover;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+/* Image */
+.card-img {
+  
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: transform .3s ease-in-out;
+  z-index: 2;
+}
+
+/* Buttons */
+.social-media {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+  transform: translateY(-6em);
+  z-index: 3;
+}
+.social-media li:hover {
+  background-color: #1C1C1C;
+}
+
+.social-media li:hover a{
+  color: white;
+}
+
+
+.social-media li {
+  background: #f5f5f5;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: all .3s ease-in;
+}
+/* Icons */
+.social-media li a {
+  --size: 24px;
+  width: var(--size);
+  height: var(--size);
+  fill: #252525;
+  color: black;
+
+  
+  
+
+}
+
+/* Texts */
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.subtitle {
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+
+/* Hovers */
+.card:hover {
+  box-shadow: 0px 15px 30px rgba(80, 80, 80, 0.3);
+}
+
+.card:hover .card-img {
+  transform: translateY(-6em);
+}
+
+.card:hover .social-media li {
+  transform: translateY(-5%);
+  opacity: 1;
+}
+
+
+.card:hover .social-media li:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.card:hover .social-media li:nth-child(2) {
+  transition-delay: .1s;
+}
+
+.card:hover .social-media li:nth-child(3) {
+  transition-delay: .2s;
+}
+
+
+/* progress */
+
+
+/* From Uiverse.io by Juanes200122 */ 
+.div1 {
+  max-width: 500px;
+  width: 100%;
+}
+
+.div1 .skill-box {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.skill-box .title {
+  font-size: 14px;
+  font-weight: 1000;
+  color: black;
+}
+
+.skill-box .skill-bar {
+  position: relative;
+  height: 20px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: gray;
+}
+
+.skill-bar .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 0; /* البداية صفر علشان الأنيميشن يبدأ من الصفر */
+  border-radius: 6px;
+  background: black;
+  opacity: 0;
+}
+
+.skill-per.html.animate {
+  animation: progressHtml 2s forwards;
+}
+.skill-per.scss.animate {
+  animation: progressCss 2s forwards;
+}
+.skill-per.javaScript.animate {
+  animation: progressJs 2s forwards;
+}
+.skill-per.react.animate {
+  animation: progressReact 2s forwards;
+}
+.skill-per.next.animate {
+  animation: progressNext 2s forwards;
+}
+
+/* أنيميشن كل سكيل */
+@keyframes progressHtml {
+  0% { width: 0; opacity: 1; }
+  100% { width: 90%; opacity: 1; }
+}
+
+@keyframes progressCss {
+  0% { width: 0; opacity: 1; }
+  100% { width: 85%; opacity: 1; }
+}
+
+@keyframes progressJs {
+  0% { width: 0; opacity: 1; }
+  100% { width: 80%; opacity: 1; }
+}
+
+@keyframes progressReact {
+  0% { width: 0; opacity: 1; }
+  100% { width: 90%; opacity: 1; }
+}
+
+@keyframes progressNext {
+  0% { width: 0; opacity: 1; }
+  100% { width: 70%; opacity: 1; }
+}
+
+.skill-per .tooltip {
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-size: 9px;
+  font-weight: bold;
+  color: black;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: rgb(226, 226, 226);
+  z-index: 1;
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+  background-color: rgb(226, 226, 226);
+  transform: translateX(-50%) rotate(45deg);
+}
+
