@@ -60,3 +60,75 @@ document.querySelector('.b2').addEventListener('click', function(e) {
       }
     });
   });
+
+
+
+
+// Navbar functionality
+const navBtns = document.querySelectorAll(".nav-btn");
+const contents = document.querySelectorAll(".skills-content");
+
+navBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    // Remove active from all buttons
+    navBtns.forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    // Show correct content
+    const target = btn.getAttribute("data-target");
+    contents.forEach((c) => {
+      if (c.id === target) {
+        c.classList.add("active");
+        // animate skills inside
+        const cards = c.querySelectorAll(".skill-card");
+        cards.forEach((card, i) => {
+          setTimeout(() => card.classList.add("show"), i * 150);
+          const bar = card.querySelector(".progress-bar span");
+          bar.style.width = card.dataset.skill + "%";
+        });
+      } else {
+        c.classList.remove("active");
+        const bars = c.querySelectorAll(".progress-bar span");
+        bars.forEach((b) => (b.style.width = "0"));
+      }
+    });
+  });
+});
+
+// Default load animation for first tab
+window.addEventListener("load", () => {
+  document.querySelectorAll(".skills-content.active .skill-card").forEach((card, i) => {
+    setTimeout(() => card.classList.add("show"), i * 150);
+    const bar = card.querySelector(".progress-bar span");
+    bar.style.width = card.dataset.skill + "%";
+  });
+});
+
+
+
+
+  // تهيئة EmailJS
+  emailjs.init("ovKGT3nxmZMKrmBdl"); // ← استبدلها بمفتاحك من EmailJS
+
+  // عند إرسال الفورم
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // بيانات الفورم
+    const params = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      message: document.getElementById("message").value
+    };
+
+    // إرسال الإيميل
+    emailjs.send("service_2edbxjr", "template_hbg4zkn", params)
+      .then(function() {
+        document.getElementById("successMessage").style.display = "block";
+        document.getElementById("contactForm").reset();
+      }, function(error) {
+        alert("حدث خطأ أثناء الإرسال، حاول مرة أخرى");
+        console.error(error);
+      });
+  });
+
