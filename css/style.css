@@ -91,10 +91,12 @@ nav .nav-link {
 
 /* start of home section */
 #home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/homeImage.png);
   height: 100vh;
 
   background-size: cover;
+  background-position: center;
+  object-fit: cover;
 
 }
 
@@ -251,7 +253,7 @@ nav .nav-link {
   height: 20%;
   background-color: transparent;
   
-  border-radius: 15px;
+  
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -262,10 +264,7 @@ nav .nav-link {
   transition: 0.5s;
 }
 
-#home .card:hover {
-  animation: ease-out 5s;
-  background: rgba(173, 173, 173, 0.05);
-}
+
 
 #home .card ul {
   padding: 1rem;
@@ -278,6 +277,7 @@ nav .nav-link {
   align-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+  
 }
 
 #home .card ul li {
